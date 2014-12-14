@@ -1,0 +1,33 @@
+doctype html
+html(lang='en')
+head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title :: Zumo Leap test ::
+    //
+       Bootstrap 
+    link(href='stylesheets/bootstrap.min.css', rel='stylesheet')
+    link(rel='stylesheet', href='stylesheets/style.css')  
+  body
+    .container-fluid
+      .span7.row-fluid
+        .centering.text-center
+          h1 Just drift!
+          button#up-btn.btn.btn-primary.btn-lg.icon-arrow-up(type='button')
+          br
+          br          
+          button#left-btn.btn.btn-primary.btn-lg.icon-arrow-left(type='button')
+          button#stop-btn.btn.btn-danger.btn-lg.icon-close(type='button')
+          button#right-btn.btn.btn-primary.btn-lg.icon-arrow-right(type='button')
+          br
+          br
+          button#down-btn.btn.btn-primary.btn-lg.icon-arrow-down(type='button')
+    //
+       jQuery (necessary for Bootstrap's JavaScript plugins) 
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+    //
+       Include all compiled plugins (below), or include individual files as needed 
+    script(src='javascripts/bootstrap.min.js')
+    script(src='javascripts/core.js')
+    script(type="text/javascript" src="/socket.io/socket.io.js")

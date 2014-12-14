@@ -1,0 +1,64 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/fonts-icons/icomoon.eot?-ju2hpw');
+	src:url('../fonts/fonts-icons/icomoon.eot?#iefix-ju2hpw') format('embedded-opentype'),
+		url('../fonts/fonts-icons/icomoon.woff?-ju2hpw') format('woff'),
+		url('../fonts/fonts-icons/icomoon.ttf?-ju2hpw') format('truetype'),
+		url('../fonts/fonts-icons/icomoon.svg?-ju2hpw#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+html, body{height:100%; margin:0; padding:0}
+ 
+.container-fluid{
+  height:100%;
+  display:table;
+  width: 100%;
+  padding: 0;
+  margin-top: -6em;
+}
+.row-fluid {
+	height: 100%; display:table-cell; vertical-align: middle;
+}
+.centering {
+  float:none;
+  margin:0 auto;
+}
+.icon-cancel-circle:before {
+	content: "\e604";	
+}
+.icon-close:before {
+	content: "\e605";
+	padding: 1em;
+}
+.icon-arrow-up:before {
+	content: "\e600";
+	padding: 1em;
+}
+.icon-arrow-right:before {
+	content: "\e602";
+	padding: 1em;
+}
+.icon-arrow-down:before {
+	content: "\e603";
+	padding: 1em;
+}
+.icon-arrow-left:before {
+	content: "\e601";
+	padding: 1em;
+}
