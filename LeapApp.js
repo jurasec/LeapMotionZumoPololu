@@ -71,7 +71,7 @@ board.on('ready' , function(){
               z = Math.round(z);              
 
               if(parseInt(sphereRadius)<40){
-                  console.log(">> Deterse");
+                  console.log(">> Stoping");
                   app.io.broadcast('stop', {data:'xxxxx'});
                   // fwd=0;
                   motor1.stop();
@@ -85,7 +85,7 @@ board.on('ready' , function(){
                       motor2.fwd();
                   }
                   else if(x <= -40 && sphereRadius>40){
-                      console.log(">> Izquierda ============================= " + x);
+                      console.log(">> Left ============================= " + x);
                       app.io.broadcast('left', {data:'xxxxx'});
                       motor1.fwd();
                       motor2.stop();
